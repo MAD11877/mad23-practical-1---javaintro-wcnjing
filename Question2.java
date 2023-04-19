@@ -4,9 +4,9 @@ public class Question2 {
     Scanner in = new Scanner(System.in); /** initialise to read input */
     System.out.print("Enter height(m): ");
     double height = in.nextDouble();
-    System.out.print("Enter weight(m): "); /** ask for input */
+    System.out.print("Enter weight(kg): "); /** ask for input */
     double weight = in.nextDouble(); /** read the input */
     double BMI = weight / (height * height); /** calculate BMI */
-    System.out.print("BMI is " +BMI );
+    System.out.printf("BMI is %.1f", BMI );
     }
 }
