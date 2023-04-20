@@ -27,10 +27,10 @@ public class Question5 {
     int mode =0;
      List<Integer> numberList = new ArrayList<>();
      Scanner in = new Scanner(System.in);
-    System.out.print("Enter number of inputs: ");
+    System.out.println();
     int n = in.nextInt();
     do {
-        System.out.print("Enter integer: ");
+        System.out.println();
         int i = in.nextInt();
         numberList.add(i);
         n--;
@@ -51,7 +51,7 @@ public class Question5 {
         
         /** 1. Check each element to see how many each appears */
     }
-     System.out.println("The mode is "+mode);
+     System.out.println(mode);
     
     
     }
